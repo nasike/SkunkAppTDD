@@ -17,8 +17,8 @@ public class TestSkunkApp {
 	{
 		game.getPlayerInfo();
 		assertEquals(2,game.getNumberOfPlayers());
-		//assertEquals("Player 1",game.getPlayerName(1));
-		//assertEquals("Player 2",game.getPlayerName(2));
+		assertEquals("Player 1",game.getPlayerName(1));
+		assertEquals("Player 2",game.getPlayerName(2));
 	}
 	
 }

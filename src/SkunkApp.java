@@ -22,4 +22,9 @@ public class SkunkApp {
 	{
 		return numberOfPlayers;
 	}
+	
+	public String getPlayerName(int playerNumber)
+	{	
+		return playerNames[playerNumber-1];
+	}
 }
